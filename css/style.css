@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  background-color: #121b22;
+}
+
+/* bagian judul */
+
+header .header {
+  display: flex;
+  justify-content: start;
+}
+
+.header {
+  padding-top: 0.4rem;
+  background-color: #1f2c34;
+  height: 65px;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.icon i {
+  color: rgb(255, 255, 255);
+  font-size: xxx-large;
+}
+
+.judul h3 {
+  position: relative;
+  font-size: 24px;
+  bottom: 0.7rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.judul a {
+  text-decoration: none;
+}
+
+/* bagian profile */
+.profil {
+  padding-top: 0.7rem;
+  border-bottom: 0.8px solid #54575a;
+}
+
+.gambar-container {
+  display: flex;
+  margin-left: 1.7rem;
+}
+
+.barcode {
+  display: flex;
+  justify-content: end;
+}
+
+.gambar-profil {
+  margin-top: 1rem;
+  margin-right: 1.2rem;
+}
+
+.gambar-profil img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.nama {
+  line-height: 7px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.7rem;
+}
+
+.nama h5 {
+  font-size: 17px;
+}
+
+.nama p {
+  color: rgb(145, 145, 145);
+}
+
+.barcode img {
+  width: 30px;
+  position: relative;
+  bottom: 3.6rem;
+  margin-right: 1.5rem;
+}
+
+/* bagian konten */
+.akun {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.logo-kunci {
+    margin-top: 2.5rem;
+    margin-right: 1.8rem;
+}
+
+.akun .logo-kunci img {
+    width: 30px;
+}
+
+.teks-kunci {
+    margin-top: 0.9rem;
+    line-height: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.teks-kunci #teks-akun {
+    font-size: 16px;
+    color: white;
+    padding-top: 0.3rem;
+}
+
+#teks-akun- {
+    padding-top: 1.3rem;
+    font-size: 16px;
+    color: white;
+}
+
+.konten2 {
+    position: relative;
+    bottom: 1rem;
+}
+
+.teks-kunci p {
+    color: rgb(175, 175, 175);
+}
+
+.logo-kunci i {
+    font-size: 27px;
+    color: #A5B1BB;
+}
+
+.about2 {
+    line-height: 20px;
+}
+
+/* daerah footer */
+.footer {
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 2px;
+}
+
+.footer-1 {
+    color: rgb(168, 167, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: white;
+    bottom: 0.2rem;
+}
+
+.hacker {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    font-size: xx-large;
+    color: red;
+}
+
+.hacker img {
+    margin-top: 3rem;
+}
+
+.hilang {
+    display: none;
+}
